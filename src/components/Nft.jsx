@@ -1,31 +1,27 @@
 import React from "react";
-import image7 from "../assets/image7.svg";
-import image8 from "../assets/image8.svg";
-import image9 from "../assets/image9.svg";
+import nft from "../assets/nft.svg"
 
 const Nft = () => {
   return (
-    <div className="mt-14 w-full h-full bg-[#A02279] border border-[#000000]">
-      <div className="container mt-[6.25rem] flex">
-        <div>
-          <h1 className="font-bold text-5xl text-white">Metabnb NFTs</h1>
-          <p className="font-normal text-xl text-white mt-9">
+    <section className="gradient px-6 md:px-16 xl:px-0 pt-[100px] pb-[100px]">
+      <div className="text-white flex flex-col-reverse items-center lg:flex-row lg:justify-between  max-w-[1240px] mx-auto">
+        <div className="text-center lg:text-left lg:w-[40%] xl:w-[30%]">
+          <h2 className="mb-[35px]">Metabnb NFTs</h2>
+          <p className="mb-[57.55px]">
             Discover our NFT gift cards collection. Loyal customers gets amazing
             gift cards which are traded as NFTs. These NFTs gives our cutomer
             access to loads of our exclusive services.
           </p>
-          <div className="bg-white rounded-[8px] w-[9.75rem] mt-[71px] hover:scale-105 duration-200">
+          <div className="bg-white rounded-lg w-[9.75rem] h-12 hover:scale-105 duration-200 mx-auto lg:mx-0">
             <button className="font-normal text-sm text-[#A02279] py-4 px-8">Learn more</button>
           </div>
           
         </div>
-        <div className="flex">
-          <img src={image7} alt="" />
-          <img src={image8} alt="" />
-          <img src={image9} alt="" />
+        <div className="mb-16 lg:mb-0 md:w-3/4 lg:w-1/2 xl:w-[60%]">
+          <img src={nft} alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
