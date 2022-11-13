@@ -17,20 +17,19 @@ const Hero = () => {
           metaverse, get a chance to turn your imagination to reality at your
           comfort zone
         </p>
-        <div>
-          <input className="border border-[#A3A3A3] text-[#B8B8B8] font-normal text-sm px-5 py-4 rounded-md outline-none" type="text" placeholder="Search for location" />
-          <button className="bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-md text-sm font-normal text-white py-4 px-20">search</button>
+        <div className="flex">
+          <input className="border border-[#A3A3A3] text-[#B8B8B8] w-full font-normal text-sm px-4  rounded-md outline-none" type="text" placeholder="Search for location" />
+          <button className="bg-gradient-to-r from-[#A02279] to-[#A02279] rounded-md text-sm font-normal w-48 text-white py-2 px-4">search</button>
         </div>
       </div>
-      <div className="flex gap-2">
-        <div>
-          <img src={image3} alt="image3" />
-          <img src={image5} alt="image5" />
+      <div className="flex gap-2 cursor-pointer">
+        <div className="mt-20 flex flex-col gap-2 max-w-[15rem]">
+          <img src={image4} alt="image4" className="hover:scale-105 duration-200" />
+          <img src={image6} alt="image6" className="hover:scale-105 duration-200" />
         </div>
-
-        <div>
-          <img src={image4} alt="image4" />
-          <img src={image6} alt="image6" />
+        <div className="flex flex-col gap-2">
+          <img src={image3} alt="image3" className="hover:scale-105 duration-200"/>
+          <img src={image5} alt="image5" className="hover:scale-105 duration-200"/>
         </div>
       </div>
     </main>
