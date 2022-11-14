@@ -1,45 +1,21 @@
-import frame from "../assets/Frame.svg";
-import frame1 from "../assets/Frame1.svg";
-import frame2 from "../assets/Frame2.svg";
-import frame3 from "../assets/Frame3.svg";
-import frame4 from "../assets/Frame4.svg";
-import frame5 from "../assets/Frame5.svg";
-import frame6 from "../assets/Frame6.svg";
-import frame7 from "../assets/Frame7.svg";
-import frame8 from "../assets/frame8.svg";
-import frame9 from "../assets/frame9.svg";
-import frame10 from "../assets/frame10.svg";
-import frame11 from "../assets/frame11.svg";
-import frame12 from "../assets/frame12.svg";
-import frame13 from "../assets/frame13.svg";
-import frame14 from "../assets/frame14.svg";
-import frame15 from "../assets/frame15.svg";
-import frame16 from "../assets/frame16.svg";
-import frame17 from "../assets/frame17.svg";
-
-export const myLinks = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/",
-    subText: "",
-  },
-  {
-    id: 2,
-    name: "Place to stay",
-    link: "/place",
-  },
-  {
-    id: 3,
-    name: "NFTs",
-    link: "/nft",
-  },
-  {
-    id: 4,
-    name: "Community",
-    link: "/community",
-  },
-];
+import frame1 from "../assets/image-1.png";
+import frame2 from "../assets/image-2.png";
+import frame3 from "../assets/image-3.png";
+import frame4 from "../assets/image-4.png";
+import frame5 from "../assets/image-5.png";
+import frame6 from "../assets/image-6.png";
+import frame7 from "../assets/image-7.png";
+import frame8 from "../assets/image-8.png";
+import frame9 from "../assets/image-9.png";
+import frame10 from "../assets/image-10.png";
+import frame11 from "../assets/image-11.png";
+import frame12 from "../assets/image-12.png";
+import frame13 from "../assets/image-13.png";
+import frame14 from "../assets/image-14.png";
+import frame15 from "../assets/image-15.png";
+import frame16 from "../assets/image-16.png";
+// import frame16 from "../assetimage-16.png";
+// import frame17 from "../assetimage-17.png";
 
 export const card = [
   {
@@ -48,7 +24,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame,
+    photo: frame1,
   },
   {
     id: 2,
@@ -56,7 +32,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame1,
+    photo: frame2,
   },
   {
     id: 3,
@@ -64,7 +40,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame2,
+    photo: frame3,
   },
   {
     id: 4,
@@ -72,7 +48,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame3,
+    photo: frame4,
   },
   {
     id: 5,
@@ -80,7 +56,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame4,
+    photo: frame5,
   },
   {
     id: 6,
@@ -88,7 +64,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame5,
+    photo: frame6,
   },
   {
     id: 7,
@@ -96,7 +72,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame6,
+    photo: frame7,
   },
   {
     id: 8,
@@ -104,7 +80,7 @@ export const card = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame7,
+    photo: frame8,
   },
 ];
 
@@ -150,7 +126,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame,
+    photo: frame1,
   },
   {
     id: 2,
@@ -158,7 +134,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame1,
+    photo: frame2,
   },
   {
     id: 3,
@@ -166,7 +142,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame2,
+    photo: frame3,
   },
   {
     id: 4,
@@ -174,7 +150,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame3,
+    photo: frame4,
   },
   {
     id: 5,
@@ -182,7 +158,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame8,
+    photo: frame5,
   },
   {
     id: 6,
@@ -190,7 +166,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame9,
+    photo: frame6,
   },
   {
     id: 7,
@@ -198,7 +174,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame10,
+    photo: frame7,
   },
   {
     id: 8,
@@ -206,7 +182,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame11,
+    photo: frame8,
   },
   {
     id: 9,
@@ -214,7 +190,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame12,
+    photo: frame9,
   },
   {
     id: 10,
@@ -222,7 +198,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame13,
+    photo: frame10,
   },
   {
     id: 11,
@@ -230,7 +206,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame14,
+    photo: frame11,
   },
   {
     id: 12,
@@ -238,7 +214,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame15,
+    photo: frame12,
   },
   {
     id: 13,
@@ -246,7 +222,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame16,
+    photo: frame13,
   },
   {
     id: 14,
@@ -254,7 +230,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame17,
+    photo: frame14,
   },
   {
     id: 15,
@@ -262,7 +238,7 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame4,
+    photo: frame15,
   },
   {
     id: 16,
@@ -270,6 +246,6 @@ export const card2 = [
     desc: "1MBT per night",
     distance: "2345 km away",
     available: "available for 2weeks stay",
-    photo: frame5,
+    photo: frame16,
   },
 ];
